@@ -7,7 +7,8 @@ build nodejs container https://github.com/lenfree/nodejs-docker.
 Usage:
 ========
 
-```shell```
+```shell``
+# cd nodejs-express-docker && docker build -t nodejs_express .`
 # docker run -d -p 8080:8080 nodejs_express
 ```
 
